@@ -137,7 +137,8 @@ const UserProfile = () => {
                 name="selectedPackage"
                 value={userProfile.acf.selectedPackage}
                 onChange={(e) => handleVendorInputChange('selectedPackage', e.target.value)}
-                disabled={!editing}
+                disabled={true}
+                readOnly={!editing}
               />
             </FormControl>
             <FormControl isDisabled={!editing}>
