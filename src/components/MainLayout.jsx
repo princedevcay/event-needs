@@ -146,7 +146,7 @@ const MainLayout = () => {
           </Flex>
         </Flex>
         <Flex width="full" justify="center">
-          <Image src="/src/assets/logo.jpg" alt="TOR Logo" bgColor={"white"} borderRadius={"50%"} padding={2} boxSize="100px" objectFit="contain" />
+          <Image src="/src/assets/logo.jpg" alt="Event Needs" bgColor={"white"} borderRadius={"50%"} padding={2} boxSize="100px" objectFit="contain" />
         </Flex>
         <Heading size="lg" mb={6} pl={3} justify="center" color={"white"}>Event-Needs Admin</Heading>
         <Box borderBottomWidth="1px"></Box>
