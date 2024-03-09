@@ -140,10 +140,10 @@ const Login = () => {
       >
         <VStack spacing={4} align="flex-start" w="full">
           <Flex width="full" justify="center">
-            <Image src="/src/assets/logo.jpg" alt="Event Needs" boxSize="100px" objectFit="contain" />
+          <Image src="https://www.eventneeds.com/logo.jpg" alt="Event Needs" boxSize="100px" objectFit="contain" />
           </Flex>
           <Heading as="h2" size="lg">
-           Event-Need Admin
+           Login
           </Heading>
           <FormControl id="username" isInvalid={errors.username} isRequired>
             <FormLabel color={"brown"}>Username</FormLabel>

@@ -113,7 +113,7 @@ const MainLayout = () => {
         <DrawerContent maxWidth="55%" bg="brown.500">
           <DrawerCloseButton color={"white"} />
           <Flex width="full" justify="center"> {/* Center the image */}
-          <Image src="/src/assets/logo.jpg" alt="TOR Logo" bgColor={"white"} borderRadius={"50%"} padding={2} boxSize="100px" objectFit="contain" />
+          <Image src="https://www.eventneeds.com/logo.jpg" alt="Event Needs" bgColor={"white"} borderRadius={"50%"} padding={2} boxSize="100px" objectFit="contain" />
           </Flex>
           <DrawerHeader borderBottomWidth="1px" size="xl" mb={6} pl={3} justify="center" color={"white"}>Event-Needs Admin</DrawerHeader>
           <DrawerBody>
