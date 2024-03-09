@@ -234,12 +234,12 @@ const UserProfile = () => {
           </SimpleGrid>
 
           {editing ? (
-            <Button colorScheme="blue" onClick={handleUpdateProfile}>
-              Save
+            <Button colorScheme="brown" onClick={handleUpdateProfile}>
+              Update Profile Details
             </Button>
           ) : (
             <Button colorScheme="gray" onClick={() => setEditing(true)}>
-              Edit
+              Edit Profile Details
             </Button>
           )}
         </Box>
